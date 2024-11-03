@@ -26,7 +26,7 @@ I very briefly tried the Cosine Similarity loss to directly inform the embedding
 
 ### Fine-tuning with the Matryoshka loss
 
-I performed an additional experiment, where the Matryoshka loss was used on top of the Multiple Negative Ranking loss, to preserve the relationships of the embeddings if the dimensionality of the pretrained model (384) was truncated 192, 96, and 48.
+I performed an additional experiment, where the Matryoshka loss was used on top of the Multiple Negative Ranking loss, to preserve the relationships of the embeddings if the dimensionality of the pretrained model (384) was truncated to 192, 96, and 48.
 
 ### Testing
 
@@ -77,7 +77,6 @@ The Matryoshka embedding was designed to be "shrinkable", meaning that truncatin
 The `recell@10` results are plotted below (the numerical values, as well as MRR@10 results are in [this notenook](analysis.ipynb)).
 
 <img src="fig1.png" width="500">
-
 
 - Observation #1: `recall@10` for the pretrained MiniLM model (blue line) declines significantly as the embeddings were truncated.  The deterioration was most pronounced when the vectors were reduced to 1/8 of its original dimensionality (from 384 to 48), were `recall@10` was reduced by 43% (from 0.576 to 0.327). 
 
