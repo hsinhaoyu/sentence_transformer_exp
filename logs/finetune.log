@@ -1,0 +1,519 @@
+INFO:root:
+Loading and prepping data...
+INFO:root:Loading data...
+INFO:root:
+Training set size: 9202
+INFO:root:
+The test set:
+INFO:root:Number of queries: 2327
+INFO:root:Size of corpus: 5064 items
+INFO:root:
+Loading all-MiniLM-L6-v2...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:root:METRIC_LEARNING: False
+INFO:root:learning_rate: None
+INFO:root:batch_size: 16
+INFO:root:n_epochs: 30
+INFO:sentence_transformers.SentenceTransformer:Save model to /var/folders/dq/f430pwr178z461r7r_cfc6vw0000gn/T/tmpemzp8t3o
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-1900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-2900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-3900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-4900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-5900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-6900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-7900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-8900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-9900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-10900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-11900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-12900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-13900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-14900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-15900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16300
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16300
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16400
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16400
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16500
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16500
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16600
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16600
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16700
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16700
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16800
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16800
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16900
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-16900
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-17000
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-17000
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-17100
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-17100
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-17200
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2/checkpoint-17200
+INFO:sentence_transformers.trainer:Saving model checkpoint to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Save model to /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: /Users/hhyu/dev/embedding_retrieval/models/all-MiniLM-L6-v2
+INFO:root:
+Evaluating...
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Information Retrieval Evaluation of the model on the home_depot_dev_384 dataset (truncated to 384):
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Queries: 2327
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Corpus: 5064
+
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: cosine
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 24.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 44.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 54.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 66.31%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 24.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 14.83%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 10.94%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 6.63%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 24.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 44.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 54.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 66.31%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3695
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.4396
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3805
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: dot
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 24.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 44.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 54.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 66.31%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 24.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 14.83%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 10.94%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 6.63%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 24.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 44.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 54.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 66.31%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3695
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.4396
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3805
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Information Retrieval Evaluation of the model on the home_depot_dev_192 dataset (truncated to 192):
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Queries: 2327
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Corpus: 5064
+
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: cosine
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 23.89%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 44.43%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 53.72%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 65.41%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 23.89%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 14.81%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 10.74%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 6.54%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 23.89%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 44.43%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 53.72%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 65.41%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3639
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.4332
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3749
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: dot
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 23.51%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 43.02%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 52.60%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 64.59%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 23.51%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 14.34%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 10.52%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 6.46%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 23.51%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 43.02%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 52.60%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 64.59%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3569
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.4257
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3683
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Information Retrieval Evaluation of the model on the home_depot_dev_96 dataset (truncated to 96):
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Queries: 2327
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Corpus: 5064
+
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: cosine
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 22.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 42.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 52.00%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 63.00%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 22.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 14.08%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 10.40%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 6.30%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 22.48%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 42.24%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 52.00%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 63.00%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3479
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.4153
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3590
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: dot
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 20.41%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 37.99%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 48.22%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 60.81%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 20.41%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 12.66%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 9.64%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 6.08%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 20.41%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 37.99%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 48.22%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 60.81%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3216
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.3897
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3337
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Information Retrieval Evaluation of the model on the home_depot_dev_48 dataset (truncated to 48):
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Queries: 2327
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Corpus: 5064
+
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: cosine
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 20.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 38.07%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 47.31%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 58.75%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 20.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 12.69%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 9.46%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 5.87%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 20.71%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 38.07%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 47.31%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 58.75%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.3198
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.3834
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.3307
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Score-Function: dot
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@1: 16.42%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@3: 33.39%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@5: 41.68%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Accuracy@10: 54.28%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@1: 16.42%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@3: 11.13%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@5: 8.34%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Precision@10: 5.43%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@1: 16.42%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@3: 33.39%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@5: 41.68%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:Recall@10: 54.28%
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MRR@10: 0.2740
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:NDCG@10: 0.3376
+INFO:sentence_transformers.evaluation.InformationRetrievalEvaluator:MAP@100: 0.2860
+INFO:root:                   384       192        96        48
+metrics                                             
+accuracy@10   0.663086  0.654061  0.629996  0.587452
+precision@10  0.066309  0.065406  0.063000  0.058745
+recall@10     0.663086  0.654061  0.629996  0.587452
+ndcg@10       0.439634  0.433171  0.415338  0.383444
+mrr@10        0.369517  0.363938  0.347936  0.319778
